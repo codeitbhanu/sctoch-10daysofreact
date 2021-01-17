@@ -2,16 +2,17 @@
   font-family: sans-serif;
   text-align: center;
 }
-.users {
+
+.input-display,
+.inputs {
   text-align: left;
-  margin: 30px 20px;
+  margin: 20px;
 }
-.users div {
+
+.input {
   padding: 10px;
-  margin: 10px;
-  background: rgb(118, 165, 196);
-  border-radius: 10px;
 }
-.page-deets {
+
+.subtitle {
   margin-top: 80px;
 }
