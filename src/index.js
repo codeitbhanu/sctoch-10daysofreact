@@ -14,6 +14,7 @@ function App() {
     const nameChangeHandler = (e) => {
         // console.log(e.target.value);
         setInput({
+            ...input,
             name: e.target.value,
         });
     };
@@ -21,6 +22,7 @@ function App() {
     const ageChangeHandler = (e) => {
         // console.log(e.target.value);
         setInput({
+            ...input,
             age: e.target.value,
         });
     };
