@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ScotchInfoBar() {
+export default function ScotchInfoBar(props) {
   return (
     <div
       style={{
@@ -26,7 +26,7 @@ export default function ScotchInfoBar() {
           borderBottom: "2px solid #40A8F3"
         }}
       >
-        Day 2 of #10DaysOfReact
+        Day {props.seriesNumber} of #10DaysOfReact
       </a>
     </div>
   );
